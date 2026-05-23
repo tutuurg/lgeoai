@@ -222,7 +222,7 @@ All features are carefully engineered from raw IP analysis data:
 ---
 
 ## License
-
+```text
 MIT License
 
 Copyright (c) 2026 Cookie:3 (tutuurg) (https://github.com/tutuurg)
@@ -232,19 +232,19 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+```
 ### Logo License
-
+```text
 The lgeoAI logo is licensed under **CC BY-NC-ND 4.0**. To view a copy of this license, visit [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 *The CC license applies solely to the logo image and does not grant any rights to access, use, or replicate the server-side functionality of lgeoAI.*
-
+```
 ---
 
 ## Related Projects
 
 - [**lgeoip**](https://github.com/tutuurg/lgeoip) — Main IP geolocation and anonymization detection server
-- [**lgeoip-client**](https://github.com/tutuurg/lgeoip-client) — Frontend web interface
+- [**lgeoip-client**](https://tutuurg.github.io/lgeoip/) — Frontend web interface
 
 ---
 
