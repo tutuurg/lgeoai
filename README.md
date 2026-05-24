@@ -17,7 +17,7 @@
 
 **✦lgeoAI** is a privately-trained, locally-run neural intelligence that distinguishes real users from VPNs, proxies, and Tor with surgical precision. It's not just another model — it's a purpose-built inference engine designed to complement the [lgeoip](https://github.com/tutuurg/lgeoip) geolocation analysis server.
 
-Born from 10 carefully engineered factors and trained on real-world IP analysis, ✦lgeoAI achieves remarkable accuracy while maintaining a footprint smaller than a single high-resolution image.
+Born from 12 carefully engineered factors and trained on real-world IP analysis, ✦lgeoAI achieves remarkable accuracy while maintaining a footprint smaller than a single high-resolution image.
 
 ### ✦ What Makes lgeoAI Different
 
@@ -127,6 +127,7 @@ features = [
     1,      # Hosting ISP
     1,      # Known VPN ASN
     -0.67   # Normalized timezone offset
+    ...
 ]
 
 # Get prediction
