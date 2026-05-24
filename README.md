@@ -42,31 +42,6 @@ And it only gets better with every retraining.
 
 ---
 
-## How It Works
-
-✦lgeoAI processes 10 engineered features extracted from IP analysis:
-
-| # | Feature | Description |
-|---|---------|-------------|
-| 1 | Placeholder | Reserved for future use |
-| 2 | Heuristic Probability | Normalized probability from traditional detection (0-1) |
-| 3 | Timezone Match | Whether browser and IP timezones align |
-| 4 | Tor Flag | IP is a known Tor exit node |
-| 5 | Suspicious Hostname | Reverse DNS contains proxy/VPN keywords |
-| 6 | IP2Proxy Detection | Detected as proxy by IP2Proxy database |
-| 7 | Datacenter Flag | IP belongs to datacenter/hosting range |
-| 8 | Hosting ISP | ISP name contains hosting keywords |
-| 9 | Known VPN ASN | ASN found in known VPN providers database |
-| 10 | Timezone Offset | Normalized timezone difference (-1 to +1) |
-
-The model outputs a probability score (0-1) that refines the heuristic detection. In the lgeoip server, final probability is calculated as:
-
-```
-Final = (Heuristic × 0.7) + (AI × 100 × 0.3)
-```
-
----
-
 ## Installation
 
 ### Prerequisites
