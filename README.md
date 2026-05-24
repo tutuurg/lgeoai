@@ -107,34 +107,6 @@ curl "http://localhost:88/json?ip=89.187.179.58&tz=Europe/Minsk&ai_mode=true"
 
 ## Usage
 
-### Standalone Inference
-
-```python
-from lgeoai import LgeoAI
-
-# Initialize model
-model = LgeoAI(model_path="lgeoai_model.onnx")
-
-# Prepare features
-features = [
-    0,      # Placeholder
-    0.85,   # Heuristic probability (normalized)
-    0,      # Timezone mismatch
-    0,      # Not Tor
-    1,      # Suspicious hostname
-    1,      # IP2Proxy detected
-    1,      # Datacenter IP
-    1,      # Hosting ISP
-    1,      # Known VPN ASN
-    -0.67   # Normalized timezone offset
-    ...
-]
-
-# Get prediction
-probability = model.predict(features)
-print(f"AI Probability: {probability:.4f} ({probability*100:.1f}%)")
-```
-
 ### Feature Extraction
 
 When integrating with your own system, normalize features as follows:
